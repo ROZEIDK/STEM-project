@@ -1,0 +1,52 @@
+/* Using a slightly softer black and white to reduce eye strain */
+body {
+  background-color: #121212; 
+  color: #e0e0e0; 
+  font-family: 'Noto Sans', Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6; /* Adds breathing room between lines of text */
+}
+
+/* This container keeps the text from stretching too wide on large screens */
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Centers the container */
+  padding: 60px 20px; /* Adds space at the top/bottom and sides */
+}
+
+.main-heading {
+  font-size: 42px;
+  text-align: center;
+  color: #fca311; /* Adds a nice gold accent color */
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the math formula */
+.formula {
+  background-color: #1e1e1e;
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 8px; /* Rounds the corners */
+  border-left: 5px solid #fca311; /* Matches the heading color */
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  margin-top: 28px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #121212;
+  background-color: #fca311;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
